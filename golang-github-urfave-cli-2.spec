@@ -4,7 +4,7 @@
 
 # https://github.com/urfave/cli
 %global goipath         github.com/urfave/cli/v2
-Version:                3.0.0-alpha4
+Version:                2.25.7
 
 # REMOVE BEFORE SUBMITTING THIS FOR REVIEW
 # ---
