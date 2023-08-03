@@ -51,10 +51,6 @@ Source:         %{gosource}
 %gocheck
 %endif
 
-%files
-%license LICENSE
-%doc README.md
-
 %gopkgfiles
 
 %changelog
