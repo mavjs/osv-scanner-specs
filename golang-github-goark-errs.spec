@@ -43,11 +43,6 @@ Source:         %{gosource}
 %generate_buildrequires
 %go_generate_buildrequires
 
-%build
-for cmd in sample; do
-  %gobuild -o %{gobuilddir}/bin/$(basename $cmd) %{goipath}/$cmd
-done
-
 %install
 %gopkginstall
 install -m 0755 -vd                     %{buildroot}%{_bindir}
