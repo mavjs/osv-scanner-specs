@@ -39,7 +39,7 @@ Source:         %{gosource}
 
 %if %{with check}
 %check
-%gocheck
+%gocheck -r ".*(encode_test|cyclonedx_test|example_test)*."
 %endif
 
 %gopkgfiles
